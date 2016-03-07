@@ -1,0 +1,20 @@
+//
+//  MyPch.pch
+//  Timer
+//
+//  Created by bever on 16/2/20.
+//  Copyright © 2016年 bever. All rights reserved.
+//
+
+#ifndef MyPch_pch
+#define MyPch_pch
+
+
+#import "Common.h"
+#import "CoreDateFormJson.h"
+#import "SegmentView.h"
+
+#import "UIImageView+WebCache.h"
+#endif /* MyPch_pch */
+
+

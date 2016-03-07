@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="155" id="KGk-i7-Jjw" customClass="PaytickrtCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="160"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="159"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8rV-Xp-TtF">
+                        <rect key="frame" x="8" y="1" width="298" height="40"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a7r-ra-ztS">
+                        <rect key="frame" x="8" y="41" width="359" height="42"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="v10_18_Feature3D@3x" translatesAutoresizingMaskIntoConstraints="NO" id="3tV-0x-5l6">
+                        <rect key="frame" x="8" y="108" width="40" height="40"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="v10_18_park@3x" translatesAutoresizingMaskIntoConstraints="NO" id="GQI-L3-But">
+                        <rect key="frame" x="88" y="108" width="40" height="40"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="v10_18_serviceTicket@3x" translatesAutoresizingMaskIntoConstraints="NO" id="OWu-Kj-Hxt">
+                        <rect key="frame" x="128" y="108" width="40" height="40"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="v10_18_VIP@3x" translatesAutoresizingMaskIntoConstraints="NO" id="3ww-Re-Ptl">
+                        <rect key="frame" x="167" y="108" width="40" height="40"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="v10_18_wifi@3x" translatesAutoresizingMaskIntoConstraints="NO" id="vXC-wh-xVy">
+                        <rect key="frame" x="207" y="108" width="40" height="40"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="v10_18_FeatureIMAX@2x" translatesAutoresizingMaskIntoConstraints="NO" id="1gz-k1-9VP">
+                        <rect key="frame" x="48" y="108" width="40" height="40"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nce-02-WGX">
+                        <rect key="frame" x="305" y="1" width="62" height="40"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="address" destination="a7r-ra-ztS" id="h2c-lN-OZV"/>
+                <outlet property="cinameName" destination="8rV-Xp-TtF" id="yMu-oh-4wV"/>
+                <outlet property="has3D" destination="3tV-0x-5l6" id="baa-nn-Hqv"/>
+                <outlet property="hasIMAX" destination="1gz-k1-9VP" id="uMS-bz-38G"/>
+                <outlet property="hasPark" destination="OWu-Kj-Hxt" id="0KD-Er-GhW"/>
+                <outlet property="hasServiceTicket" destination="3ww-Re-Ptl" id="SkV-o4-CFi"/>
+                <outlet property="hasVIP" destination="GQI-L3-But" id="mi9-Vd-whs"/>
+                <outlet property="hasWifi" destination="vXC-wh-xVy" id="mqM-7q-8kT"/>
+                <outlet property="minPrice" destination="nce-02-WGX" id="KMF-OL-KkI"/>
+            </connections>
+            <point key="canvasLocation" x="559.5" y="325"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="v10_18_Feature3D@3x" width="16" height="16"/>
+        <image name="v10_18_FeatureIMAX@2x" width="16" height="16"/>
+        <image name="v10_18_VIP@3x" width="16" height="16"/>
+        <image name="v10_18_park@3x" width="16" height="16"/>
+        <image name="v10_18_serviceTicket@3x" width="16" height="16"/>
+        <image name="v10_18_wifi@3x" width="16" height="16"/>
+    </resources>
+</document>
